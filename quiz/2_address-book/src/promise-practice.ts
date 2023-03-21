@@ -1,11 +1,11 @@
-// Promise가 없는 경우 타입을 string[]으로만 지정
+// // Promise가 없는 경우 타입을 string[]으로만 지정
 // function fetchItems(): string[] {
 //   let items = ['a', 'b', 'c'];
 //   return items;
 // }
 // fetchItems();
 
-// return값에 Promise가 들어가니 return 타입을 Promise와 generic 조합으로 지정
+// // return값에 Promise가 들어가니 return 타입을 Promise와 generic 조합으로 지정
 // function fetchItems(): Promise<string[]> {
 //   let items = ['a', 'b', 'c'];
 //   return new Promise(function(resolve) {
